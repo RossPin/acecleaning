@@ -2,7 +2,7 @@
 const path = require('path')
 
 module.exports = {
-  entry: { main: './client/index.js' },
+  entry: { main: './src/index.js' },
   output: {
     path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js'
@@ -39,7 +39,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, "docs/"),
     port: 3000,
-    publicPath: "http://localhost:3000",
+    publicPath: "http://localhost:3000/docs",
     hotOnly: true
   },
   plugins: [new webpack.HotModuleReplacementPlugin()]
