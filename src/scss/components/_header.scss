@@ -1,6 +1,28 @@
 .header {
   margin: 0, 0, 1em, 0;
   padding: 1em;
-  background-color: rgb(194, 209, 205);
+  background-color: #e4e4f0;
+
+  .logo {
+    text-align: left;
+    display: inline-block;
+    width: 60%;   
+  }
+
+  .menu {
+    display: inline-block;
+    width: 40%;
+    
+    ul {
+      list-style: none;
+      display: block;
+      float: right;
+    }
+
+    li {
+      margin: 0 1em;
+      display: inline-flex;      
+    }
+  }
   
 }
