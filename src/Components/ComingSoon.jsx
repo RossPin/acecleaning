@@ -4,7 +4,7 @@ class ComingSoon extends React.Component {
   render() {
     return (
       <div className="comingSoon">
-        <h2>Coming Soon</h2>        
+        <img src="./images/coming-soon.png" alt="Coming Soon" />        
       </div>
     );
   }
