@@ -1,0 +1,23 @@
+.Footer {
+  background-color: #F7F7F7;
+  padding: 0 5vw;
+  height: 120px;
+
+  ul {
+    list-style: none;
+    padding: 1em 0 0 0;
+  }
+
+  li {
+    margin: 0.5em 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .rightLink {
+    padding: 1em 0 0 0;
+    float: right;
+  }
+}
