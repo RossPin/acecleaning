@@ -1,10 +1,10 @@
 import React from "react";
 
-class App extends React.Component{
-  render(){
-    return(
+class App extends React.Component {
+  render() {
+    return (
       <div className="App">
-        <h1> Hello, World!</h1>
+        <h1> Hello, World!2</h1>
       </div>
     );
   }
