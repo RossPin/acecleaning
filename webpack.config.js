@@ -1,10 +1,13 @@
 // webpack v4
-const path = require('path')
+
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
   entry: { main: './src/index.js' },
   output: {
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'docs/'),
+    publicPath: "/docs/",
     filename: 'bundle.js'
   },
   module: {
@@ -39,8 +42,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, "docs/"),
     port: 3000,
-    publicPath: "http://localhost:3000/docs",
-    hotOnly: true
+    publicPath: "http://localhost:3000"
   },
   plugins: [new webpack.HotModuleReplacementPlugin()]
 }
