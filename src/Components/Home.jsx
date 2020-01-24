@@ -1,10 +1,11 @@
 import React from "react";
+import ComingSoon from "./ComingSoon";
 
 class Home extends React.Component {
   render() {
     return (
       <div className="home">
-        <h2>Coming Soon...</h2>       
+        <ComingSoon />     
       </div>
     );
   }
