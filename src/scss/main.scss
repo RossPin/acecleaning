@@ -1,8 +1,13 @@
 @import "components/index";
 
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color: rgb(200, 250, 235);
-  }
+  background-color: white;
+}
 
 
  
