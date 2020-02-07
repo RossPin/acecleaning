@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <div className="header">
         <div className="logo">
-          <h1>Ace Cleaning</h1> 
+          <img src='./images/AceLogo.png' alt='Ace Cleaning' />
         </div>
         <div className="menu">
           <ul>
